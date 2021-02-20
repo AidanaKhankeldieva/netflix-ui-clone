@@ -29,7 +29,7 @@ const Row = ({ title, fetchURL, isLargeRow }) => {
         .then((url) => {
           const urlParams = new URLSearchParams(new URL(url).search);
           const videoid = urlParams.get("v");
-          console.log("videoid:", videoid);
+          //   console.log("videoid:", videoid);
           setTrailerUrl(videoid);
         })
         .catch((err) => console.log("error:", err));
