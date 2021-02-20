@@ -46,7 +46,6 @@ const Row = ({ title, fetchURL, isLargeRow }) => {
   };
   return (
     <div className='Row'>
-      {/* title */}
       <h2>{title}</h2>
       <div className='row__posters'>
         {movies &&
